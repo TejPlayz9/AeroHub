@@ -1,0 +1,16 @@
+{
+  "name": "klm-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with tickets, automod, giveaways, and staff-only tools.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "author": "YourName",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0"
+  }
+}
